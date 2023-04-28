@@ -2,6 +2,7 @@
 //github用 https://cdn.jsdelivr.net/gh/ShowyaTanaka/ongeki@main/send.js
 //アクセス (function(url){s=document.createElement('script');s.src=url;document.body.appendChild(s);})('https://cdn.jsdelivr.net/gh/ShowyaTanaka/ongeki@main/send.js')
 function fetch_status(){
+    alert('updated?')
     alert(location.pathname.split('/')[1])
     if (location.hostname !== 'ongeki-net.com'){
         alert('オンゲキネットにログインし,aimeを選択してください。')
